@@ -9,7 +9,6 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max-limit
 
 # Dicionário para armazenar as informações dos arquivos
-# Na prática, você deve usar um banco de dados
 files_info = {}
 
 # Assegura que o diretório de uploads existe
